@@ -78,6 +78,8 @@ Vollständig im Faktenblatt.
 - Notreserve festlegen, bevor der 13. Monatslohn verplant wird
 - Budget klären: Überschuss 164 CHF gegenüber Sparquote 400 CHF
 - eToro‑Verbindung neu anmelden
+- Begünstigung Säule 3a zugunsten Nadja bei finpension prüfen (unverheiratet, gesetzlich nicht erbberechtigt)
+- Quartalsweises Budgetgespräch mit Nadja
 - BYD‑Verkauf per Bildschirmfoto bestätigen
 - Matteo: RTX, First Solar, Intuitive Surgical auf Bewertungsregel prüfen (bis 25.10.)
 - Bargeld‑Stufenplan: Stufe 2 bis 25.10. (geprüfte Titel ausserhalb KI), Stufe 3 nach 15.11. Richtung 5–10 %
