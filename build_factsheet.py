@@ -173,10 +173,10 @@ rule_protocol = [
     ("Ausnahmeregel 20%-Limite", "Nur für Positionen mit Matteo-Score ≥85 (A-Grade) bei Aufbau; schriftliche Investment-These (alle 4 Kategorien); Gegenzeichnung durch mind. 2 Mitglieder; weiterhin quartalsweise Neubewertung, keine Ewigkeits-Ausnahme. Gilt grundsätzlich auch rückwirkend auf Bestandspositionen."),
     ("Präzedenzfall BYD", "Rückwirkende Prüfung ergab Score 25/100 (Durchgefallen) — Ausnahme nicht anwendbar. 10%-Positionslimite bleibt bindend; Position wird gestaffelt auf 10% reduziert."),
     ("Themenobergrenze", "Ein einzelnes Anlagethema höchstens 40% des Depots (harte Grenze). Liegt ein Thema über 30%, fliesst kein neues Geld hinein; kein Zwangsverkauf. Thema KI umfasst ASML, Broadcom, CrowdStrike, Palantir, IonQ, GE Vernova, Alphabet. Beschluss 24.09.2026."),
-    ("Monatliche Einzahlung", "200 CHF am 25. jedes Monats aufs eToro-Konto. Investition innert 5 Handelstagen, verteilt auf bestehende Positionen, die am weitesten unter ihrer Zielgrösse liegen. Neue Titel nur per Meeting-Beschluss, nicht automatisch. Bewertungsregel gilt auch hier. Umrechnungsgebühr CHF→USD prüfen; bei spürbaren Kosten quartalsweise Einzahlung erwägen."),
+    ("Monatliche Einzahlung", "200 CHF am 25. jedes Monats aufs eToro-Konto. Investition innert 5 Handelstagen, verteilt auf bestehende Positionen, die am weitesten unter ihrer Zielgrösse liegen. Neue Titel nur per Meeting-Beschluss, nicht automatisch. Bewertungsregel gilt auch hier. Umrechnungsgebühr CHF→USD prüfen; bei spürbaren Kosten quartalsweise Einzahlung erwägen. Ist keine bestehende Position zukaufsfähig, bleibt die Einzahlung Bargeld bis zum nächsten Beschluss über einen neuen Titel, mit Vermerk im Protokoll (Beschluss 24.09.2026)."),
     ("Bewertungsfaktor", "Bewertung ist kein Scoring-Kriterium, sondern wirkt auf die Zielgrösse. Harte Komponente: forward KGV gegen den Sektormedian (Quelle einheitlich GuruFocus). Über dem doppelten Median → halbe Zielgrösse, nur gestaffelter Einstieg. Bei Verlust (KGV nicht anwendbar) → kein Zukauf. Weiche Komponente: bei jedem Neukauf und jeder Tranche ein schriftlicher Satz dazu, welche Erwartung im Kurs bereits eingepreist ist. PEG wurde am 22.09.2026 verworfen — die Werte wichen je nach Quelle und Methodik um den Faktor 5 und mehr voneinander ab. Gilt nur für künftige Käufe; Bestandspositionen sind vorübergehend ausgenommen (Beschluss 23.09.2026)."),
     ("Durchgefallene Bestandstitel", "Entscheidungsfrage: „Würde ich heute neu kaufen?“ Nein = verkaufen."),
-    ("Offene Traktanden", "Vergleichsgruppen-Regel präzisieren (Probleme bei GE Vernova, Visa); zweites Raster für Banken/Versicherer/Basiskonsum oder bewusster Verzicht."),
+    ("Offene Traktanden", "Notreserve festlegen vor Verplanung 13. Monatslohn; Budget klären (Überschuss 164 CHF vs. Sparquote 400 CHF); Vergleichsgruppen-Regel präzisieren (Probleme bei GE Vernova, Visa); zweites Raster für Banken/Versicherer/Basiskonsum oder bewusster Verzicht."),
 ]
 
 doc = SimpleDocTemplate(
@@ -454,7 +454,7 @@ story.append(Paragraph("WATCHLIST-ERGEBNISSE (MATTEO ROSSI)", section_style))
 watchlist_results = [
     ("CrowdStrike (CRWD)", "95", "A-Grade", "Im Depot"),
     ("Arista Networks (ANET)", "90", "A-Grade", "Beobachten — KI-Thema über 30%, derzeit kein neues Geld ins Thema"),
-    ("Caterpillar (CAT)", "90", "A-Grade", "Beobachten — fwd KGV vor Kauf prüfen"),
+    ("Caterpillar (CAT)", "90", "A-Grade", "Prüfung bis 29.09.: fwd KGV und KI-Zuordnung (Rechenzentrums-Stromaggregate) — Kandidat für Einzahlung 25.09."),
     ("GE Vernova (GEV)", "95", "A-Grade", "Im Depot"),
     ("Palantir (PLTR)", "90", "A-Grade", "Im Depot"),
     ("Lockheed Martin (LMT)", "90", "A-Grade", "Im Depot"),
@@ -473,7 +473,7 @@ watchlist_results = [
     ("Axon Enterprise (AXON)", "80", "B-Grade", "Beobachten — sehr teuer (KGV 244x), halbe Zielgrösse wahrscheinlich"),
     ("Eli Lilly (LLY)", "75", "B-Grade", "Im Depot seit 24.09.2026"),
     ("Microsoft (MSFT)", "75", "B-Grade", "Beobachten"),
-    ("RTX Corporation", "75", "B-Grade", "Beobachten — Bewertungsregel prüfen (bis 25.10.)"),
+    ("RTX Corporation", "75", "B-Grade", "Prüfung vorgezogen auf 29.09. — Kandidat für Einzahlung 25.09."),
     ("Constellation Energy (CEG)", "75", "B-Grade", "Beobachten"),
     ("Kratos Defense (KTOS)", "70", "B-Grade", "Beobachten"),
     ("Rheinmetall (RHM)", "70", "B-Grade", "Beobachten — negativer Cashflow"),

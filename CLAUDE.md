@@ -46,6 +46,7 @@ Tägliches Meeting mit acht Traktanden: Nachrichten, Wirtschaftsdaten, Portfolio
 11. Themenobergrenze (24.09.): max. 40 % pro Anlagethema (hart); über 30 % kein neues Geld ins Thema, kein Zwangsverkauf. Thema KI = ASML, Broadcom, CrowdStrike, Palantir, IonQ, GE Vernova, Alphabet.
 12. Monatliche Einzahlung: 200 CHF am 25. jedes Monats aufs eToro‑Konto; innert 5 Handelstagen investieren, in bestehende Positionen am weitesten unter Zielgrösse; neue Titel nur per Meeting‑Beschluss; Bewertungsregel gilt; Umrechnungsgebühr CHF→USD prüfen.
 13. Entscheidungsfrage bei durchgefallenen Bestandstiteln: „Würde ich heute neu kaufen?“ Nein = verkaufen.
+14. Ergänzung zu 12 (24.09.): Ist keine bestehende Position zukaufsfähig, bleibt die Einzahlung Bargeld bis zum nächsten Beschluss über einen neuen Titel; im Protokoll vermerken.
 
 Offene Traktanden: Vergleichsgruppen‑Regel präzisieren (Probleme bei GE Vernova, Visa); zweites Raster für Banken/Versicherer/Basiskonsum oder bewusster Verzicht.
 
@@ -73,12 +74,19 @@ Durchgefallen: Meta 55 (Neuprüfung nach Q3 am 28.10.), JPMorgan 60, Freeport 58
 Vollständig im Faktenblatt.
 
 ## Offene Aufgaben
+- Matteo: Caterpillar (fwd KGV und KI‑Zuordnung) und RTX bis 29.09. prüfen, Kandidaten für die Einzahlung vom 25.09.
+- Notreserve festlegen, bevor der 13. Monatslohn verplant wird
+- Budget klären: Überschuss 164 CHF gegenüber Sparquote 400 CHF
+- eToro‑Verbindung neu anmelden
 - BYD‑Verkauf per Bildschirmfoto bestätigen
 - Matteo: RTX, First Solar, Intuitive Surgical auf Bewertungsregel prüfen (bis 25.10.)
 - Bargeld‑Stufenplan: Stufe 2 bis 25.10. (geprüfte Titel ausserhalb KI), Stufe 3 nach 15.11. Richtung 5–10 %
 - Sätze zur eingepreisten Erwartung für ASML, Alphabet, Broadcom, Cheniere, Lockheed, Uber bestätigen lassen (ABB, Lilly gelten als angenommen)
 - 13. Monatslohn (ca. 5500 CHF netto, Dezember) verplanen
 - Krypto‑Reduktion auf 5 % ab Sept. 2027
+
+## Protokolle
+- Meetingprotokolle unter `protokolle/JJJJ-MM-TT_meeting.md`
 
 ## Faktenblatt
 - Jede Entscheidung automatisch ins Faktenblatt übernehmen, aktuelles Portfolio immer aktuell halten.
