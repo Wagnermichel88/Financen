@@ -16,7 +16,7 @@ Der vollständige ältere Verlauf liegt in `verlauf/gespraechsverlauf_bis_22-09-
 - Meetings als Gremium: Jedes Mitglied spricht charakterspezifisch und menschlich, argumentiert, widerspricht, hinterfragt. Meinungsverschiedenheiten austragen, nicht glätten.
 - Fiktive Berater, keine realen Personen. Keine erfundenen Zitate realer Personen.
 - Claude kann keine Trades ausführen; der Nutzer führt Aufträge selbst aus und schickt Bildschirmfotos.
-- Hinweis bei Empfehlungen: strukturierte Analyse, keine lizenzierte Anlageberatung.
+- Kein Disclaimer-Satz in Antworten und Protokollen (Wunsch des Nutzers, 25.09.).
 
 ## Gremium (fiktiv)
 - Julian Vetsch – CIO, Vorsitz, strukturiert, pragmatisch
