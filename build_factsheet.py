@@ -164,7 +164,7 @@ decision_matrix = [
 
 rule_protocol = [
     ("Positionslimite", "Max. 10% Depotwert pro Einzeltitel (eToro)"),
-    ("Länderlimite", "Max. 20% Depotwert pro Land ausserhalb des Heimmarkts"),
+    ("Länderlimite", "Max. 20% Depotwert pro Land ausserhalb des Heimmarkts. ACHTUNG 25.09.: USA-Anteil ca. 58.7% — Regel seit Beginn verletzt und nie angewendet; Neufassung oder bewusste Ausnahme für USA ist offenes Traktandum."),
     ("Kalendertrigger", "Feste Überprüfung alle 3 Monate"),
     ("Cash-Quote-Band", "5–30%. Bis 30% nur im Bärenmarkt (Leitindex mind. 20% unter Allzeithoch); sonst Rückführung Richtung 5–10%, schrittweise nach dokumentiertem Stufenplan."),
     ("Diversifikation", "Säule 3a (finpension Global 100) übernimmt die breite Streuung; eToro bleibt aktiver Einzelwert-Satellit, kein ETF"),
@@ -365,26 +365,25 @@ story.append(Paragraph("WAGNERINVEST", ParagraphStyle(
     tracking=2, spaceAfter=2)))
 story.append(Paragraph("Portfolio-Status & Watchlist-Ergebnisse", ParagraphStyle(
     "TitleCustom4", parent=title_style, fontSize=18)))
-story.append(Paragraph("Stand: 24.09.2026 · Kontowert eToro ca. 1'952 USD · Krypto ca. 722 CHF · Säule 3a ca. 187 CHF", subtitle_style))
+story.append(Paragraph("Stand: 25.09.2026 · Kontowert eToro 1'918 USD · Krypto ca. 722 CHF · Säule 3a ca. 187 CHF", subtitle_style))
 story.append(HRFlowable(width="100%", thickness=1.1, color=GOLD, spaceAfter=12))
 
 story.append(Paragraph("AKTUELLES PORTFOLIO (eToro)", section_style))
 current_holdings = [
-    ("LMT", "Lockheed Martin", "8.03%", "-1.14%"),
-    ("SPCX", "Space Exploration Technologies", "7.74%", "+30.39%"),
-    ("BYD (01211.HK)", "BYD Co Ltd — Verkauf in Ausführung", "7.73%", "-25.47%"),
-    ("ASML", "ASML Holding NV", "7.14%", "+2.84%"),
-    ("UBER", "Uber Technologies", "6.97%", "-3.79%"),
-    ("GOOG", "Alphabet", "6.86%", "+2.20%"),
-    ("CRWD", "CrowdStrike Holdings", "5.84%", "+6.24%"),
-    ("GEV", "GE Vernova", "5.29%", "-1.01%"),
-    ("AVGO", "Broadcom Inc", "5.13%", "-1.52%"),
-    ("ABBN.ZU", "ABB Ltd", "4.00%", "-0.01%"),
-    ("LLY", "Eli Lilly & Co", "4.00%", "-0.09%"),
-    ("LNG", "Cheniere Energy Inc", "3.62%", "+0.69%"),
-    ("IONQ", "IonQ Inc", "2.20%", "+12.95%"),
-    ("PLTR", "Palantir Technologies", "1.96%", "+8.78%"),
-    ("Cash", "Verfügbares Guthaben", "23.42%", "—"),
+    ("LMT", "Lockheed Martin", "8.05%", "-2.45%"),
+    ("SPCX", "Space Exploration Technologies", "7.91%", "+31.16%"),
+    ("ASML", "ASML Holding NV", "7.32%", "+3.79%"),
+    ("GOOG", "Alphabet", "7.06%", "+3.51%"),
+    ("UBER", "Uber Technologies", "7.04%", "-4.22%"),
+    ("CRWD", "CrowdStrike Holdings", "5.87%", "+5.04%"),
+    ("GEV", "GE Vernova", "5.44%", "+0.10%"),
+    ("AVGO", "Broadcom Inc", "5.28%", "-0.20%"),
+    ("ABBN.ZU", "ABB Ltd", "4.04%", "-0.58%"),
+    ("LLY", "Eli Lilly & Co", "4.03%", "-0.90%"),
+    ("LNG", "Cheniere Energy Inc", "3.65%", "-0.11%"),
+    ("IONQ", "IonQ Inc", "2.33%", "+17.82%"),
+    ("PLTR", "Palantir Technologies", "1.99%", "+8.59%"),
+    ("Cash", "Verfügbares Guthaben 575.76 USD", "30.0%", "—"),
 ]
 hold_data = [[Paragraph("<b>Ticker</b>", body_style), Paragraph("<b>Titel</b>", body_style),
               Paragraph("<b>Anteil</b>", body_style), Paragraph("<b>G/V</b>", body_style)]]
@@ -417,20 +416,19 @@ story.append(Paragraph(
 story.append(Spacer(1, 14))
 story.append(Paragraph("DEPOT-STATUS (MATTEO ROSSI)", section_style))
 depot_status = [
-    ("Lockheed Martin", "8.03%", "90 A", "8%", "HALTEN", "Zielgrösse erreicht"),
-    ("SPCX", "7.74%", "80 B", "4%", "HALTEN", "Kein Zukauf — über B-Zielgrösse, Verlust, Bewertungsregel n/a"),
-    ("BYD", "7.73%", "25", "—", "VERKAUFEN", "Beschluss 23.09.2026 — Order über Börse Hongkong in Ausführung"),
-    ("ASML", "7.14%", "85 A", "8%", "HALTEN", "Unter Ziel, aber Themenobergrenze KI über 30% — kein Zukauf"),
-    ("Uber", "6.97%", "85 A", "7%", "HALTEN", "Zielgrösse erreicht"),
-    ("Alphabet", "6.86%", "90 A", "8%", "HALTEN", "Unter Ziel, aber Themenobergrenze KI über 30% — kein Zukauf"),
-    ("CrowdStrike", "5.84%", "95 A", "6%", "HALTEN", "Kein Zukauf — Bewertung (Bestandsschutz), Themenobergrenze"),
-    ("GE Vernova", "5.29%", "95 A", "6%", "HALTEN", "Kein Zukauf — Bewertung (Bestandsschutz), Themenobergrenze"),
-    ("Broadcom", "5.13%", "85 A", "6%", "HALTEN", "Unter Ziel, aber Themenobergrenze KI über 30% — kein Zukauf"),
-    ("ABB", "4.00%", "80 B", "4%", "HALTEN", "Neu eröffnet 24.09.2026, Zielgrösse erreicht"),
-    ("Eli Lilly", "4.00%", "75 B", "4%", "HALTEN", "Neu eröffnet 24.09.2026, Zielgrösse erreicht"),
-    ("Cheniere", "3.62%", "80 B", "4%", "HALTEN", "Differenz unter eToro-Mindestbetrag"),
-    ("IonQ", "2.20%", "65 B", "—", "HALTEN", "Kein Zukauf — Score an der Schwelle"),
-    ("Palantir", "1.96%", "90 A", "2%", "HALTEN", "Zielgrösse wegen Bewertung halbiert, erreicht"),
+    ("Lockheed Martin", "8.05%", "90 A", "8%", "HALTEN", "Zielgrösse erreicht"),
+    ("SPCX", "7.91%", "80 B", "4%", "HALTEN", "Kein Zukauf — über B-Zielgrösse, Verlust, Bewertungsregel n/a"),
+    ("ASML", "7.32%", "85 A", "8%", "HALTEN", "Unter Ziel, aber Themenobergrenze KI über 30% — kein Zukauf"),
+    ("Alphabet", "7.06%", "90 A", "8%", "HALTEN", "Unter Ziel, aber Themenobergrenze KI über 30% — kein Zukauf"),
+    ("Uber", "7.04%", "85 A", "7%", "HALTEN", "Zielgrösse erreicht"),
+    ("CrowdStrike", "5.87%", "95 A", "6%", "HALTEN", "Kein Zukauf — Bewertung (Bestandsschutz), Themenobergrenze"),
+    ("GE Vernova", "5.44%", "95 A", "6%", "HALTEN", "Kein Zukauf — Bewertung (Bestandsschutz), Themenobergrenze"),
+    ("Broadcom", "5.28%", "85 A", "6%", "HALTEN", "Unter Ziel, aber Themenobergrenze KI über 30% — kein Zukauf"),
+    ("ABB", "4.04%", "80 B", "4%", "HALTEN", "Zielgrösse erreicht"),
+    ("Eli Lilly", "4.03%", "75 B", "4%", "HALTEN", "Zielgrösse erreicht"),
+    ("Cheniere", "3.65%", "80 B", "4%", "HALTEN", "Differenz unter eToro-Mindestbetrag"),
+    ("IonQ", "2.33%", "65 B", "—", "HALTEN", "Kein Zukauf — Score an der Schwelle"),
+    ("Palantir", "1.99%", "90 A", "2%", "HALTEN", "Zielgrösse wegen Bewertung halbiert, erreicht"),
 ]
 ds_data=[[Paragraph("<b>Titel</b>", body_style), Paragraph("<b>Anteil</b>", body_style), Paragraph("<b>Score</b>", body_style),
           Paragraph("<b>Ziel</b>", body_style), Paragraph("<b>Status</b>", body_style), Paragraph("<b>Begründung</b>", body_style)]]
@@ -447,7 +445,7 @@ for i,row in enumerate(depot_status, start=1):
 ds_table.setStyle(TableStyle(ds_style))
 story.append(ds_table)
 story.append(Spacer(1,4))
-story.append(Paragraph("Status-Legende: AUFBAU = unter Zielgrösse, Zukauf vorgesehen (u.a. über Monatseinzahlung) · HALTEN = Zielgrösse erreicht oder kein Zukauf zulässig · VERKAUF PRÜFEN / VERKAUFEN = Score oder These nicht mehr intakt. Aktualisierung bei jedem Meeting und nach Quartalszahlen. Stufenplan Bargeld: nach BYD-Verkauf ca. 31%; bis 25.10. geprüfte Titel ausserhalb KI (RTX, First Solar, Intuitive Surgical); nach 15.11. Rückführung Richtung 5–10%.", meta_style))
+story.append(Paragraph("Status-Legende: AUFBAU = unter Zielgrösse, Zukauf vorgesehen (u.a. über Monatseinzahlung) · HALTEN = Zielgrösse erreicht oder kein Zukauf zulässig · VERKAUF PRÜFEN / VERKAUFEN = Score oder These nicht mehr intakt. Aktualisierung bei jedem Meeting und nach Quartalszahlen. Stufenplan Bargeld: nach BYD-Verkauf 30.0% (25.09.), mit Einzahlung vom 25.09. rund 38%; bis 25.10. geprüfte Titel ausserhalb KI (RTX, First Solar, Intuitive Surgical); nach 15.11. Rückführung Richtung 5–10%.", meta_style))
 story.append(Spacer(1, 14))
 story.append(Spacer(1, 14))
 story.append(Paragraph("WATCHLIST-ERGEBNISSE (MATTEO ROSSI)", section_style))
@@ -495,7 +493,7 @@ watchlist_results = [
     ("Viking Therapeutics (VKTX)", "45", "Durchgefallen", "Von der Liste — kein Umsatz, binäres Studienrisiko"),
     ("Take-Two Interactive (TTWO)", "58", "Durchgefallen", "Von der Liste — Modell-Limitation bei Event-Titeln"),
     ("Novo Nordisk (NVO)", "40", "Durchgefallen", "Von der Liste — Umsatz-/Gewinnrückgang guided"),
-    ("BYD", "25", "Durchgefallen", "Verkauf in Ausführung (Beschluss 23.09.)"),
+    ("BYD", "25", "Durchgefallen", "Verkauft (bestätigt 25.09.), Verlust realisiert"),
     ("Alibaba (BABA)", "—", "Durchgefallen", "Verkauft (Woche 24.09.)"),
 ]
 wl_data = [[Paragraph("<b>Titel</b>", body_style), Paragraph("<b>Score</b>", body_style),
@@ -521,9 +519,9 @@ wl_table.setStyle(TableStyle(wl_style))
 story.append(wl_table)
 story.append(Spacer(1, 8))
 story.append(Paragraph(
-    "Hinweis 24.09.2026: Thema KI (ASML, Broadcom, CrowdStrike, Palantir, IonQ, GE Vernova, Alphabet) "
-    "zusammen ca. 34.4% — über der 30%-Schwelle, daher kein neues Geld ins Thema; harte Grenze 40%. "
-    "Cash-Quote 23.4%, nach BYD-Verkauf ca. 31% — über dem 30%-Band ohne Bärenmarkt, Stufenplan zwingend.",
+    "Hinweis 25.09.2026: BYD verkauft (bestätigt). Thema KI zusammen 35.3% — über 30%, kein neues Geld, harte Grenze 40%; "
+    "Anteil steigt allein durch Kursgewinne. Bargeld 30.0%, mit Einzahlung rund 38% — über dem Band ohne Bärenmarkt. "
+    "USA-Anteil ca. 58.7% trotz Länderlimite 20%.",
     ParagraphStyle("Warn2", parent=meta_style, fontName="Helvetica-Oblique")))
 
 story.append(PageBreak())

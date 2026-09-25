@@ -48,7 +48,7 @@ Tägliches Meeting mit acht Traktanden: Nachrichten, Wirtschaftsdaten, Portfolio
 13. Entscheidungsfrage bei durchgefallenen Bestandstiteln: „Würde ich heute neu kaufen?“ Nein = verkaufen.
 14. Ergänzung zu 12 (24.09.): Ist keine bestehende Position zukaufsfähig, bleibt die Einzahlung Bargeld bis zum nächsten Beschluss über einen neuen Titel; im Protokoll vermerken.
 
-Offene Traktanden: Vergleichsgruppen‑Regel präzisieren (Probleme bei GE Vernova, Visa); zweites Raster für Banken/Versicherer/Basiskonsum oder bewusster Verzicht.
+Offene Traktanden: Länderlimite 20 % gegen USA‑Anteil ca. 59 % (neu fassen oder bewusst ausnehmen); Vergleichsgruppen‑Regel präzisieren (Probleme bei GE Vernova, Visa); zweites Raster für Banken/Versicherer/Basiskonsum oder bewusster Verzicht.
 
 ## Bewertungsraster (100 Punkte, 4 × 25)
 1. Finanzen: Umsatzwachstum > 15 %, freier Mittelzufluss, Bilanz
@@ -58,15 +58,16 @@ Offene Traktanden: Vergleichsgruppen‑Regel präzisieren (Probleme bei GE Verno
 Klasse A 85–100 (Zielgrösse meist 6–8 %), Klasse B 65–84 (Zielgrösse 4 %), unter 65 durchgefallen.
 Bekannte Schwäche: Das Raster bevorzugt Wachstum/Tech und sortiert defensive Qualität aus – mitverantwortlich für den KI‑Klumpen.
 
-## Vermögen (Stand 24.09.2026)
-- eToro (USD‑Konto): Kontowert ca. 1952 Dollar, Bargeld 23,4 % (nach BYD‑Verkauf ca. 31 %)
+## Vermögen (Stand 25.09.2026)
+- eToro (USD‑Konto): Kontowert 1918 Dollar, Bargeld 575,76 Dollar = 30,0 % (BYD verkauft; Einzahlung 25.09. noch nicht eingegangen)
 - Krypto Bitpanda ca. 722 CHF (ETH, SOL, TRX im Earn gesperrt bis ca. Sept. 2027; FLOKI frei)
 - Säule 3a finpension Global 100, ca. 187 CHF; Übertrag von PostFinance (ca. 339 CHF) beantragt 18.09., Frist ca. 9. Oktober
 - Sparquote 400 CHF/Monat: 200 eToro, 200 Säule 3a
 
-## Depot‑Status (24.09.2026)
-Lockheed Martin 8,03 % (A 90, Ziel 8) halten · SpaceX 7,74 % (B 80) halten, kein Zukauf · BYD 7,73 % (25) VERKAUFEN, Order über Nacht via Hongkong in Ausführung · ASML 7,14 % (A 85, Ziel 8) halten, Themenobergrenze · Uber 6,97 % (A 85, Ziel 7) halten · Alphabet 6,86 % (A 90, Ziel 8) halten, Themenobergrenze · CrowdStrike 5,84 % (A 95) halten, kein Zukauf · GE Vernova 5,29 % (A 95) halten, kein Zukauf · Broadcom 5,13 % (A 85, Ziel 6) halten, Themenobergrenze · ABB 4,00 % (B 80, neu 24.09.) · Eli Lilly 4,00 % (B 75, neu 24.09.) · Cheniere 3,62 % (B 80, Ziel 4) · IonQ 2,20 % (B 65) kein Zukauf · Palantir 1,96 % (A 90, Ziel 2 wegen Bewertung).
-Verkauft in dieser Woche: Alibaba, Denali, Klarna (Wiedereinstieg nur bei angehobener Prognose UND positivem operativem Cashflow).
+## Depot‑Status (25.09.2026, Anteil am Kontowert)
+Lockheed Martin 8,05 % (A 90, Ziel 8) halten · SpaceX 7,91 % (B 80) halten, kein Zukauf · ASML 7,32 % (A 85, Ziel 8) halten, Themenobergrenze · Alphabet 7,06 % (A 90, Ziel 8) halten, Themenobergrenze · Uber 7,04 % (A 85, Ziel 7) halten · CrowdStrike 5,87 % (A 95) halten, kein Zukauf · GE Vernova 5,44 % (A 95) halten, kein Zukauf · Broadcom 5,28 % (A 85, Ziel 6) halten, Themenobergrenze · ABB 4,04 % (B 80) · Eli Lilly 4,03 % (B 75) · Cheniere 3,65 % (B 80, Ziel 4) · IonQ 2,33 % (B 65) kein Zukauf · Palantir 1,99 % (A 90, Ziel 2 wegen Bewertung).
+Thema KI 35,3 %. USA‑Anteil ca. 58,7 % (Länderlimite 20 % verletzt, offenes Traktandum).
+Verkauft in dieser Woche: BYD (bestätigt 25.09.), Alibaba, Denali, Klarna (Wiedereinstieg nur bei angehobener Prognose UND positivem operativem Cashflow).
 
 ## Beobachtungsliste (Auszug)
 Klasse A: Arista 90, Caterpillar 90. Klasse B: Intuitive Surgical 83 (KGV 1,7‑ bis 1,9‑fach Median, neu prüfen), Axon 80 (sehr teuer), Amazon 80, NVIDIA 80, First Solar 78, Microsoft 75, RTX 75, Visa 75 (halbe Zielgrösse, Vergleichsgruppe fraglich), Nextracker 75 (Daten veraltet).
@@ -80,7 +81,6 @@ Vollständig im Faktenblatt.
 - eToro‑Verbindung neu anmelden
 - Begünstigung Säule 3a zugunsten Nadja bei finpension prüfen (unverheiratet, gesetzlich nicht erbberechtigt)
 - Quartalsweises Budgetgespräch mit Nadja
-- BYD‑Verkauf per Bildschirmfoto bestätigen
 - Matteo: RTX, First Solar, Intuitive Surgical auf Bewertungsregel prüfen (bis 25.10.)
 - Bargeld‑Stufenplan: Stufe 2 bis 25.10. (geprüfte Titel ausserhalb KI), Stufe 3 nach 15.11. Richtung 5–10 %
 - Sätze zur eingepreisten Erwartung für ASML, Alphabet, Broadcom, Cheniere, Lockheed, Uber bestätigen lassen (ABB, Lilly gelten als angenommen)
